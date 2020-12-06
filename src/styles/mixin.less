@@ -1,0 +1,50 @@
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-v {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-h {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-v-center {
+    align-items: center;
+}
+
+.flex-h-center {
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-grow {
+    flex: 1;
+}

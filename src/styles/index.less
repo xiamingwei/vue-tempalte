@@ -1,0 +1,65 @@
+@import './mixin.less';
+@import './iview_ui.less';
+@import '~@/fonts/iconfont.css';
+
+html, body {
+    font-family: "思源黑体 CN","Open Sans","微软雅黑","microsoft yahei","黑体",arial,sans-serif;
+    background: #e1e6e6;
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 14px;
+    &:hover, &:focus {
+        text-decoration: none;
+        color: #707070;
+    }
+}
+    
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar /*整体部分*/ {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track /*滑动轨道*/ {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb /*滑块*/ {
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover /*滑块效果*/ {
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    background: rgba(189, 118, 118, 0.3);
+}
+
+.container {
+    padding: 20px;
+    background-color: #FAFCFC;
+
+    .custom-btn {
+        i {
+            margin-right: 3px;
+        }
+    }
+}
+
+.dialog-handle-width {
+    width: 220px !important;
+}
+
